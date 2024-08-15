@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 16</title>
+</head>
+<body>
+    <p 
+        onmouseover="mudarCor(this)" 
+        onmouseout="resetarCor(this)">
+        Item do Menu
+    </p>
+
+    <script>
+        function mudarCor(elemento) {
+            elemento.style.backgroundColor = "blue";
+        }
+
+        function resetarCor(elemento) {
+            elemento.style.backgroundColor = "";
+        }
+    </script>
+</body>
+</html>

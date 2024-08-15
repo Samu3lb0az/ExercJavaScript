@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14</title>
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form>
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" onchange="mostrarOpcaoSelecionada()">
+            <option value="Sugestões">Sugestões</option>
+            <option value="Reclamações">Reclamações</option>
+            <option value="Dúvidas">Dúvidas</option>
+        </select>
+    </form>
+
+    <script>
+        function mostrarOpcaoSelecionada() {
+            var dropdown = document.getElementById("assunto");
+            var valorSelecionado = dropdown.value;
+            alert("Opção selecionada: " + valorSelecionado);
+        }
+    </script>
+</body>
+</html>
