@@ -1,3 +1,5 @@
+//Samuel Boaz de Morais Gonçalves
+
 const opcoesMenu = prompt("Digite uma opção de 1 a 3:");
 
 switch(opcoesMenu) {
